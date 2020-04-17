@@ -29,7 +29,7 @@ Token - defines the token data type (value and token type)
 Lexer - to break down the lines of code into tokens
 ## Functions:
 * AddToken - helper function to adds a token to the queue
-    * ShowTokens - displays the tokens
+* ShowTokens - displays the tokens
 * GetCodeFromFile - reads the file line by line and adds the lines into a string
     * returns false if no errors were found reading from the file
 * GetTokenFromCode - breaks down the lines of code into tokens

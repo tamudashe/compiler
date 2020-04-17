@@ -35,7 +35,7 @@ Lexer - to break down the lines of code into tokens
     * returns false if no errors were found reading from the file
 * ```GetTokenFromCode``` breaks down the lines of code into tokens
 * ```LexicalErrors``` checks for syntax errors in the code before executing it. 
-    *returns true if errors are detected else, returns false
+    * returns true if errors are detected else, returns false
 * ```CompileCode``` compiles the given code if and only if there are no errors found
 
 ## Error Checking 

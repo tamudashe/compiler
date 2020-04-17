@@ -1,0 +1,7 @@
+begin
+display "Group 3 Compiler";
+input A;
+input B;
+C = A + B;
+display C;
+end

@@ -1,0 +1,11 @@
+<program> -> begin <stmt_list> end
+
+<stmt_list> -> <stmt>; | <stmt>; <stmt_list>
+
+<stmt> - > <var>=<expression> | input <var> | display <var> | display "string" |
+
+<var> -> A | B | C 
+
+<expression> -> <var> + <var> | <var>-<var> | <var>*<var> | <var>/<var> | <var>
+
+

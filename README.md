@@ -58,8 +58,8 @@ Lexer - to break down the lines of code into tokens
 ```
 ## Sample Program
 ```
-display "Group 3 Compiler Code";
 begin
+display "Group 3 Compiler Code";
 input A;
 input B;
 C = A + B;

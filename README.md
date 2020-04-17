@@ -17,25 +17,26 @@ The project was to develop a compiler which should allow the user to enter the f
 ## Tech Stack
 Backend: C++ Programming Language
 ### Libraries used:
-iostream - C++ library
-fstream - used to read from files (we'll be reading line by line)
-string - all tokens are represented as strings
-queue - to store the tokens extracted from the program code
-set - to store the keywords allowed in the language syntax
-Program Functionalities
+* ```iostream``` C++ library
+* ```fstream``` used to read from files (we'll be reading line by line)
+* ```string``` all tokens are represented as strings
+* ```queue``` to store the tokens extracted from the program code
+* ```set``` to store the keywords allowed in the language syntax
+
+### Program Functionalities
 
 ## Classes:
 Token - defines the token data type (value and token type)
 Lexer - to break down the lines of code into tokens
 ## Functions:
-* AddToken - helper function to adds a token to the queue
-* ShowTokens - displays the tokens
-* GetCodeFromFile - reads the file line by line and adds the lines into a string
+* ```AddToken```  helper function to adds a token to the queue
+* ```ShowTokens``` displays the tokens
+* ```GetCodeFromFile``` reads the file line by line and adds the lines into a string
     * returns false if no errors were found reading from the file
-* GetTokenFromCode - breaks down the lines of code into tokens
-* LexicalErrors - checks for syntax errors in the code before executing it. 
-    *returns true if errors are detected else, returns false
-* CompileCode - compiles the given code if and only if there are no errors found
+* ```GetTokenFromCode``` breaks down the lines of code into tokens
+* ```LexicalErrors``` checks for syntax errors in the code before executing it. 
+    * returns true if errors are detected else, returns false
+* ```CompileCode``` compiles the given code if and only if there are no errors found
 
 ## Error Checking 
 * notify user if the file path does not exist
@@ -59,15 +60,10 @@ Lexer - to break down the lines of code into tokens
 ## Sample Program
 ```
 begin
-display "Group 3 Compiler Code";
-input A;
-input B;
-C = A + B;
-display C;
+   display "Group 3 Compiler Code";
+   input A;
+   input B;
+   C = A + B;
+   display C;
 end
 ```
-
-
-
-
-

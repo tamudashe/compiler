@@ -59,16 +59,14 @@ Lexer - to break down the lines of code into tokens
 ```
 ## Sample Program
 ```
-display "Group 3 Compiler Code";
 begin
-input A;
-input B;
-C = A + B;
-display C;
+   display "Group 3 Compiler Code";
+   input A;
+   input B;
+   C = A + B;
+   display C;
 end
 ```
-[Flow Chart](https://drive.google.com/file/d/1SwXoaRhIeVnhy8oGwgiKKGExrbxlDOXd/view?usp=sharing)
-
 
 
 
